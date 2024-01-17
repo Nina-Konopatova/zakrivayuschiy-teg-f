@@ -79,7 +79,7 @@
 
 .like-icon.is-liked .sparks {
   fill: var(--heart-color);
-  animation: move 0.3s ease-in alternate;
+  animation: move 0.3s ease-in alternate 0.3s;
 }
 
 @keyframes move {
@@ -92,7 +92,7 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: like 0.3s ease-in alternate;
+  animation: like 0.3s ease-in alternate 0.1s;
   transform: scale(1.1);
 }
 
