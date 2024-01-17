@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --main-font-family: "Inter", sans-serif;
-    --accent-font-family: "Press Start 2P", sans-serif;
-    --heart-color: #ff0000;
-    --page-background: #fff;
-    --background-color: #d3d3d3;
-    --background-color-start: #e7e7e7;
-    --background-color-end: #1a1a1a;
-  }
+  --main-font-family: "Inter", sans-serif;
+  --accent-font-family: "Press Start 2P", fantasy;
+  --heart-color: #ff0000;
+  --page-background: #fff;
+  --background-color: #d3d3d3;
+  --background-color-start: #e7e7e7;
+  --background-color-end: #1a1a1a;
+}
   
