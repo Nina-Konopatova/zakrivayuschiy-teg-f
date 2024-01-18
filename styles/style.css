@@ -23,25 +23,7 @@
   color: var(--text-color);
   background-attachment: fixed;
   background-color: var(--page-background);
-  background-image: repeating-linear-gradient(
-    90deg,
-    var(--background-color),
-    var(--background-color) 2px,
-    transparent 2px,
-    transparent 4px
-    ),
-    repeating-linear-gradient(
-      180deg,
-      var(--background-color-start),
-      var(--background-color-end) 2px,
-      transparent 2px,
-      transparent 4px
-      ),
-    repeating-linear-gradient(
-      180deg,
-      var(--background-color-start) 0.01%,
-      var(--background-color-end)
-      );
+  background-image: var(--background-image);  
   background-size: cover;
 }
 
